@@ -3,7 +3,7 @@
 
 default: omp-assess
 
-qpesim: main.cc $(SRCS) $(HEADERS)
+omp-assess: main.cc $(SRCS) $(HEADERS)
 	$(CXX) $(CXXFLAGS) -o omp-assess main.cc $(SRCS) $(LDFLAGS)
 
 .PHONY: all clean
