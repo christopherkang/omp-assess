@@ -1,10 +1,10 @@
 	CXX = g++-9
 	CXXFLAGS = -fopenmp -O3 -std=c++17 -funroll-loops -march=native -Wno-unused -Wall -I. -g
 
-default: qpesim
+default: omp-assess
 
 qpesim: main.cc $(SRCS) $(HEADERS)
-	$(CXX) -DDOCTEST_CONFIG_DISABLE $(CXXFLAGS) -o omp-assess main.cc $(SRCS) $(LDFLAGS)
+	$(CXX) $(CXXFLAGS) -o omp-assess main.cc $(SRCS) $(LDFLAGS)
 
 .PHONY: all clean
 
