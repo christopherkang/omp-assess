@@ -31,3 +31,6 @@
 *.out
 *.app
 *.assess
+
+#program
+omp-assess
