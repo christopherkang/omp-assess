@@ -14,7 +14,7 @@ inline int fib(int n)
 
 int main(int argc, char *argv[])
 {
-    const unsigned ITER_NUM = 1000;
+    const unsigned ITER_NUM = 100;
     const unsigned FIB_NUM = 39;
 
     std::vector<unsigned> vals(ITER_NUM);

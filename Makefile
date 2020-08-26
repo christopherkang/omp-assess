@@ -1,5 +1,5 @@
 	CXX = g++-9
-	CXXFLAGS = -fopenmp -O3 -std=c++17 -funroll-loops -march=native -Wno-unused -Wall -I. -g
+	CXXFLAGS = -fopenmp -O3 -std=c++17 -funroll-loops -march=native -Wno-unused -Wall -I.
 
 default: omp-assess
 
